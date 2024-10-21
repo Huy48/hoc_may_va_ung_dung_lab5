@@ -81,7 +81,7 @@ def index():
 
 
     # Calculate b using the support vectors (average over all support vectors)
-    b = np.mean(sv_y - np.dot(sv_x, w))
+    b = sv_y[0] - np.dot(sv_x[0], w)
 
 
     y_hat = np.dot(x, w) + b
@@ -119,7 +119,7 @@ def index():
 
     plt.scatter(sv_x[:, 0], sv_x[:, 1], s=60, marker='o', c='white')
     plt.legend()
-    plt.title('C = ' + str(C) + ',  Σξ = ' + str(np.sum(slack).round(2)))
+    plt.title('C = ' + str(C) + ',  Σξ = ' + str(np.sum(total_slack).round(2)))
 
 
     # Encode plot to base64
