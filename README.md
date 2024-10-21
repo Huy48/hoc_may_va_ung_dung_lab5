@@ -24,7 +24,7 @@ Hard margin svm:
 
 Soft margin svm:
 
-<img width="1020" alt="softsvmbt" src="https://github.com/user-attachments/assets/62e74a1c-0dd3-443b-b819-c2987ec410bc">
+<img width="1020" alt="softbt" src="https://github.com/user-attachments/assets/33b5a6d9-ff63-4cb6-ae67-37211bbdb46a">
 
 # 4. So sánh 2 thuật toán 
 
